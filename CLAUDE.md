@@ -91,7 +91,7 @@ Ne rien construire de ce qui suit sans demande explicite :
 
 ## Façon de travailler
 
-- **Scénarios** : le porteur du projet rédige les scénarios estimation et achat (gabarit : plan, annexe A). Relis-les selon les règles de la spécification, sans les réécrire de ta propre initiative.
+- **Scénarios** : le porteur du projet rédige les scénarios estimation et achat (gabarit : plan, annexe A). Relis-les avec le skill `/relecture-scenario` (`.claude/skills/relecture-scenario/`), sans les réécrire de ta propre initiative.
 - **Tests d'abord** : les exemples chiffrés de la spécification servent de tests de référence. Ce sont la grille de priorité, l'exemple de Monsieur Berger, le brief de Madame Dupont, le bilan de mars et la cascade de Julien.
 - **Lots** : avance un lot à la fois, dans l'ordre du plan (§4). Tiens le plan à jour quand une décision est prise.
 - **Secrets** : aucune clé d'API ni aucun secret dans le dépôt. Utilise des variables d'environnement et un fichier `.env.example`.
