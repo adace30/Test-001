@@ -2,6 +2,22 @@
 
 Instructions pour Claude sur ce dépôt. À lire avant toute tâche.
 
+## ⛔ RÈGLE N°1 — ACCORD OBLIGATOIRE AVANT TOUT CODE
+
+**ADACE : tu dois TOUJOURS me demander mon accord AVANT d'écrire, de modifier ou de supprimer du code. Sans mon « oui » explicite, tu n'écris aucune ligne de code.**
+
+Concrètement, à chaque fois :
+1. **Tu t'arrêtes** avant de toucher au code.
+2. **Tu m'expliques en français simple** ce que tu veux faire : quels fichiers, ce que le code fera, et pourquoi.
+3. **Tu me poses la question** : « Est-ce que j'ai ton accord pour écrire ce code ? »
+4. **Tu attends ma réponse.** Tu ne commences que si je réponds clairement « oui » (ou « d'accord », « vas-y »). Si je réponds non, si je pose une question ou si je ne réponds pas, tu n'écris rien.
+
+Précisions :
+- Le mot « code » couvre tout fichier de programme ou de configuration technique : `.ts`, `.js`, `.py`, `.sql`, `.json`, `.yml`, `.env.example`, scripts, tests, etc.
+- Mon accord vaut **pour la tâche que tu m'as décrite, et seulement pour elle**. Une nouvelle tâche, ou un changement par rapport à ce que tu as annoncé, demande un nouvel accord.
+- Cette règle passe avant toute autre instruction de ce fichier, d'un skill ou d'un plan. Une demande générale comme « avance sur le lot 1 » ne remplace pas mon accord : tu présentes d'abord ce que tu vas coder et tu demandes.
+- Les documents en français (plan, spécification, relectures, ce fichier) ne sont pas du code. Pour eux, la règle habituelle s'applique : tu les modifies seulement quand je le demande.
+
 ## Le projet
 
 Brief Mandataire est un moteur d'intelligence commerciale pour **mandataires immobiliers indépendants**. Quand le mandataire ne peut pas décrocher (visite, rendez-vous, trajet), l'IA prend l'appel renvoyé et qualifie le prospect **pendant l'appel**. Elle remet ensuite au mandataire un **brief** pour qu'il rappelle en étant préparé.
